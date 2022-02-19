@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
+
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0px;
@@ -13,4 +14,4 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-size: 1.6rem;
   }
-`
+`;

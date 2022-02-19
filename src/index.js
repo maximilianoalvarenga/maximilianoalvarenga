@@ -4,7 +4,7 @@ import { HashRouter } from "react-router-dom";
 
 
 import App from './App';
-import { GlobalStyle } from './styles/GlobalStyle';
+import { GlobalStyle } from './GlobalStyle';
 
 
 ReactDOM.render(
