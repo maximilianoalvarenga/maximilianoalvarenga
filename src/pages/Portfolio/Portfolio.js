@@ -41,15 +41,17 @@ const Portfolio = () => {
                     </ContainerSearch>
                     <ContainerCardsPortfolio>
                         <div className='tags'>
-                            tags
+                            
                         </div>
                         <div className='cards'>
                         { projects.map((project) =>
-                                <CardProject dataCard={project} />
+                                <a href={project.url} target='_blank' rel="noreferrer">
+                                    <CardProject dataCard={project} />
+                                </a>
                            )}
                         </div>
                         <div className='paginacao'>
-                            paginação
+                            
                         </div>
                     </ContainerCardsPortfolio>
                </ContainerPortfolio>

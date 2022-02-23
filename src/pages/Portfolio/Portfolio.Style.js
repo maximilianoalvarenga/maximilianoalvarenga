@@ -18,7 +18,6 @@ export const Main = styled.main`
 export const ContainerPortfolio = styled.section`
     width: 80%;
     height: 89.9%;
-    //background-color: green;
     margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -27,8 +26,50 @@ export const ContainerPortfolio = styled.section`
 export const ContainerSearch = styled.div`
     width: 100%;
     height: 8%;
+    color: #00A3FE;
+    display: flex;
+    justify-content: space-evenly;
+    height: 6%;
 
-    //background-color: blue;
+    div {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+
+        input {
+            height: 80%;
+            width: 75%;
+            border-bottom-left-radius: 1rem;
+            border-top-left-radius: 1rem;
+        }
+
+        button {
+            color: #00A3FE;
+            font-size: 1.6rem;
+            font-weight: bold;
+            height: 90%;
+            width: 20%;
+            border-bottom-right-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+    }
+
+    label {
+        font-size: 1.6rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+
+        select {
+            height: 80%;
+            width: 80%;
+            text-align: center;
+        }
+    }
 `;
 
 export const ContainerCardsPortfolio = styled.div`
@@ -55,6 +96,14 @@ export const ContainerCardsPortfolio = styled.div`
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
+
+        a { 
+            width: 22%;
+            height: 40%;
+            display: block;
+            //background-color: yellow;
+        }
+
     }
 
 `;

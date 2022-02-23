@@ -35,36 +35,30 @@ export const socialInformations = [
 
 export const projects = [
     {
-        name: 'project-01',
-        tags: ['react', 'frontend']
+        name: 'Riot Client',
+        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        tags: ['react', 'frontend', 'clone']
     },
     {
-        name: 'project-02',
-        tags: ['react', 'frontend']
+        name: 'Riot Client',
+        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        tags: ['react', 'frontend', 'clone']
     },
     {
-        name: 'project-03',
-        tags: ['react', 'frontend']
+        name: 'Riot Client',
+        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        tags: ['react', 'frontend', 'clone']
     },
     {
-        name: 'project-04',
-        tags: ['react', 'frontend']
+        name: 'Riot Client',
+        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        tags: ['react', 'frontend', 'clone']
     },
     {
-        name: 'project-05',
-        tags: ['react', 'frontend']
+        name: 'Riot Client',
+        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        tags: ['react', 'frontend', 'clone']
     },
-    {
-        name: 'project-06',
-        tags: ['react', 'frontend']
-    },
-    {
-        name: 'project-07',
-        tags: ['react', 'frontend']
-    },
-    {
-        name: 'project-08',
-        tags: ['react', 'frontend']
-    },
+    
     
 ];
