@@ -31,4 +31,40 @@ export const socialInformations = [
         image: discord,
         link: 'https://discordapp.com/users/408689201564090368',
     },
-]
+];
+
+export const projects = [
+    {
+        name: 'project-01',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-02',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-03',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-04',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-05',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-06',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-07',
+        tags: ['react', 'frontend']
+    },
+    {
+        name: 'project-08',
+        tags: ['react', 'frontend']
+    },
+    
+];

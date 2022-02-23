@@ -1,26 +1,59 @@
+import { useState } from 'react';
+import CardProject from '../../components/CardProject/CardProject';
 import Header from '../../components/Header/Header';
+import { projects } from '../../services/informations';
 import {
     ContainerCardsPortfolio,
     ContainerPortfolio,
     ContainerSearch,
     Main, 
     PortfolioStyle
-} from "./Portfolio.Style";
+} from "./Portfolio.Style"; 
 
 const Portfolio = () => {
+    const [tags, setTags] = useState([
+        'React',
+        'Java',
+        'Desafios',
+        'Node',
+        'Frontend',
+        'Backend',
+    ])
     return (
         <PortfolioStyle>
            <Header />
            <Main>
                <ContainerPortfolio>
                     <ContainerSearch>
-                       <input type='text' />
+                        <div>
+                            <input type='text' />
+                            <button type='button'>Buscar</button>
+                        </div>
+                        <label>
+                            Filtro:
+                            <select>
+                                <option value='' selected></option>
+                                { tags.map((tag) =>
+                                    <option value={tag} key={tag}>{tag}</option>
+                                )}
+                            </select>
+                                </label>
                     </ContainerSearch>
                     <ContainerCardsPortfolio>
-                           teste
+                        <div className='tags'>
+                            tags
+                        </div>
+                        <div className='cards'>
+                        { projects.map((project) =>
+                                <CardProject dataCard={project} />
+                           )}
+                        </div>
+                        <div className='paginacao'>
+                            paginação
+                        </div>
                     </ContainerCardsPortfolio>
                </ContainerPortfolio>
-           </Main>
+           </Main> 
         </PortfolioStyle>
     )
 }
