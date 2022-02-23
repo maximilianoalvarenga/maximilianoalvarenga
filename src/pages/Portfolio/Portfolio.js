@@ -25,7 +25,7 @@ const Portfolio = () => {
            <Main>
                <ContainerPortfolio>
                     <ContainerSearch>
-                        <div>
+                       { /*<div>
                             <input type='text' />
                             <button type='button'>Buscar</button>
                         </div>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                                     <option value={tag} key={tag}>{tag}</option>
                                 )}
                             </select>
-                                </label>
+                        </label> */ }
                     </ContainerSearch>
                     <ContainerCardsPortfolio>
                         <div className='tags'>

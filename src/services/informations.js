@@ -40,25 +40,8 @@ export const projects = [
         tags: ['react', 'frontend', 'clone']
     },
     {
-        name: 'Riot Client',
-        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
-        tags: ['react', 'frontend', 'clone']
+        name: 'Desafio Capgemini',
+        url: 'https://maximilianoalvarenga.github.io/desafio-capgemini/',
+        tags: ['react', 'frontend', 'backend', 'desafio']
     },
-    {
-        name: 'Riot Client',
-        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
-        tags: ['react', 'frontend', 'clone']
-    },
-    {
-        name: 'Riot Client',
-        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
-        tags: ['react', 'frontend', 'clone']
-    },
-    {
-        name: 'Riot Client',
-        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
-        tags: ['react', 'frontend', 'clone']
-    },
-    
-    
 ];

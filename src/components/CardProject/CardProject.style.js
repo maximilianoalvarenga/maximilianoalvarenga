@@ -6,7 +6,7 @@ export const CardProjectStyle = styled.div`
     height: 100%;
     
     border-radius: 3rem;
-    background-color: green;
+    background-color: #00A3FE;
     cursor: pointer;
 
     display: flex;
