@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import CardProject from '../../components/CardProject/CardProject';
 import Header from '../../components/Header/Header';
 import { projects } from '../../services/informations';
@@ -11,14 +11,14 @@ import {
 } from "./Portfolio.Style"; 
 
 const Portfolio = () => {
-    const [tags, setTags] = useState([
+     /*const [tags, setTags] = useState([
         'React',
         'Java',
         'Desafios',
         'Node',
         'Frontend',
         'Backend',
-    ])
+    ])*/
     return (
         <PortfolioStyle>
            <Header />
@@ -44,11 +44,9 @@ const Portfolio = () => {
                             
                         </div>
                         <div className='cards'>
-                        { projects.map((project) =>
-                                <a href={project.url} target='_blank' rel="noreferrer">
-                                    <CardProject dataCard={project} />
-                                </a>
-                           )}
+                            { projects.map((project) =>
+                                <CardProject dataCard={project} />
+                            )}
                         </div>
                         <div className='paginacao'>
                             

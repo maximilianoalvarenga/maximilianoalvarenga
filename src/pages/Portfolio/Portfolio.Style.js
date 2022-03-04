@@ -4,7 +4,7 @@ export const PortfolioStyle = styled.div`
     width: 100vw;
     height: 100vh;
 
-`;
+`; 
 
 export const Main = styled.main`
     width: 100%;
@@ -87,24 +87,7 @@ export const ContainerCardsPortfolio = styled.div`
     }
 
     .cards {
-        width: 100%;
-        height: 80%;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         flex-wrap: wrap;
-        
-
-        a { 
-            color: rgba(29, 43, 66, 0.82);
-            font-size: 2rem;
-            font-weight: bold;
-            width: 22%;
-            height: 40%;
-            display: block;
-            text-decoration: none;
-        }
-
     }
-
 `;

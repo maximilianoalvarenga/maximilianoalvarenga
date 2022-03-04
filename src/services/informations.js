@@ -36,12 +36,17 @@ export const socialInformations = [
 export const projects = [
     {
         name: 'Riot Client',
-        url: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        repoName:'login-league-of-legends',
+        urlProd: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
+        urlRepo: 'https://github.com/maximilianoalvarenga/login-league-of-legends',
         tags: ['react', 'frontend', 'clone']
     },
     {
         name: 'Desafio Capgemini',
-        url: 'https://maximilianoalvarenga.github.io/desafio-capgemini/',
+        repoName: 'desafio-capgemini',
+        urlProd: 'https://maximilianoalvarenga.github.io/desafio-capgemini/',
+        urlRepo: 'https://github.com/maximilianoalvarenga/desafio-capgemini',
         tags: ['react', 'frontend', 'backend', 'desafio']
     },
+    
 ];

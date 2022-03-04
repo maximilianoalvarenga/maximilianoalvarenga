@@ -5,7 +5,7 @@ export const HeaderComponent = styled.header`
     height: 10%;
 
     background-color: #1D2B42;
-    color: #00A3FE;
+    color: #3A81F2;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
