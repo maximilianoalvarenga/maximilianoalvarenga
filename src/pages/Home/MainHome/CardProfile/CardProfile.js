@@ -1,4 +1,5 @@
-import { socialInformations, userInformations } from '../../services/informations';
+import { socialInformations, userInformations } from '../../../../services/informations';
+import { useNavigate } from "react-router-dom";
 import {
         CardProfileStyle,
         FirstCicle,
@@ -11,6 +12,8 @@ import {
     } from "./CardProfileStyle";
 
 const CardProfile = () => {
+    const navigate = useNavigate();
+
     return (
         <CardProfileStyle>
             <FirstCicle>
@@ -24,10 +27,13 @@ const CardProfile = () => {
                     <h2>{userInformations.role}</h2>  
 
                     <SocialLinks>
-                        { socialInformations.map((social) => social.name !== 'Email' &&
+                        { socialInformations.map((social) => social.name !== 'Email' ?
                             <LinkContainer href={social.link} target='_blank'>
                                 <img src={social.image} alt={social.name} />
-                            </LinkContainer> 
+                            </LinkContainer> :
+                            <LinkContainer style={{cursor:'pointer'}} >
+                                <img src={social.image} alt={social.name} onClick={() => navigate(social.link)}/>
+                            </LinkContainer>
                         )}
                     </SocialLinks>
                 </InformationsUser>

@@ -18,7 +18,7 @@ export const Container = styled.form`
     #inputs {
         margin: 0 auto;
         width: 95%;
-        height: 25%;
+        height: 30%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -28,12 +28,19 @@ export const Container = styled.form`
             flex-direction: column;
             align-items: center;
             width: 45%;
-            height: 30%;
-            
+            height: 40%;
+
             input {
                 width: 90%;
                 height: 3rem;
-                border-radius: 0.7rem;
+                border-radius: 2rem;
+                font-size: 1.6rem;
+                font-weight: bold;
+                text-align: center ;
+            }
+
+            input[name='telefone'] {
+                width: 40% ;
             }
         }
     }
@@ -54,8 +61,12 @@ export const Container = styled.form`
             textarea {
                 width: 100%;
                 height: 85%;
-                border-radius: 0.7rem;
+                border-radius: 2rem;
                 resize: none;
+                font-size: 1.6rem;
+                font-weight: bold;
+                text-align: center ;
+                padding: 1rem 0rem;
             }
         }
     }
@@ -67,7 +78,6 @@ export const Container = styled.form`
     }
     
 `;
-
 
 export const Button = styled.button`
     height: 100%;

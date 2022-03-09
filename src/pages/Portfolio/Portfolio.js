@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import CardProject from '../../components/CardProject/CardProject';
+import CardProject from './CardProject/CardProject';
 import Header from '../../components/Header/Header';
 import { projects } from '../../services/informations';
 import {

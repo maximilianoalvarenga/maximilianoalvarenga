@@ -19,7 +19,7 @@ export const socialInformations = [
     {
         name: 'Email',
         image: email,
-        link: 'mailto:maximilianoabispo@gmail.com',
+        link: '/contato',
     },
     {
         name: 'Linkedin',

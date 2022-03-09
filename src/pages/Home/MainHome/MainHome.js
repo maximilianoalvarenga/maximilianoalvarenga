@@ -1,5 +1,5 @@
 
-import CardProfile from "../CardProfile/CardProfile";
+import CardProfile from "./CardProfile/CardProfile";
 import { Main } from "./MainHomeStyle";
 
 

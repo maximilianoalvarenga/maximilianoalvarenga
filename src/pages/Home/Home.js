@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import MainHome from "../../components/MainHome/MainHome";
+import MainHome from "./MainHome/MainHome";
 import { HomeStyle } from "./HomeStyle";
 import {  useLocation } from 'react-router-dom';
 
