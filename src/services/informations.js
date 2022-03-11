@@ -48,5 +48,12 @@ export const projects = [
         urlRepo: 'https://github.com/maximilianoalvarenga/desafio-capgemini',
         tags: ['react', 'frontend', 'backend', 'desafio']
     },
+    {
+        name: 'Facebook Login',
+        repoName: '',
+        urlProd: 'https://maximiliano-facebook-login.netlify.app/',
+        urlRepo: '',
+        tags: ['clone', 'html', 'css', 'javascript']
+    },
     
 ];
