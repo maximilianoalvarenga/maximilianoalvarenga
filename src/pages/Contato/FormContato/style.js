@@ -11,37 +11,42 @@ export const Container = styled.form`
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    
+
     span {
-        margin-bottom: 0.5rem;
+        font-family: 'Yatra One', cursive;
+        padding: 0rem 0rem 0.3rem 1.5rem;
     }
+
     #inputs {
         margin: 0 auto;
         width: 95%;
         height: 30%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         label {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            width: 45%;
-            height: 40%;
+            width: 47.5%;
+            height: 45%;
 
             input {
-                width: 90%;
-                height: 3rem;
+                width: 100%;
+                height: 4rem;
                 border-radius: 2rem;
                 font-size: 1.6rem;
                 font-weight: bold;
                 text-align: center ;
             }
+        }
 
-            input[name='telefone'] {
-                width: 40% ;
-            }
+        label:last-child {
+            width: 65%;
+        }
+
+        #telefone {
+            width: 30% ;
         }
     }
 
@@ -54,7 +59,6 @@ export const Container = styled.form`
             display: flex;
             flex-direction: column;
             align-items: center;
-            
             width: 100%;
             height: 100%;
 

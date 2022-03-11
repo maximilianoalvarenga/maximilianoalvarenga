@@ -60,6 +60,7 @@ const FormContato = () => {
                         name="nome"
                         onChange={handleChange}
                         value={formData.nome}
+                        placeholder='Digite aqui'
                     />
                 </label>
                 <label>
@@ -69,9 +70,10 @@ const FormContato = () => {
                         name="email"
                         onChange={handleChange}
                         value={formData.email}
+                        placeholder='email@exemplo.com'
                     />
                 </label>
-                <label>
+                <label id='telefone'>
                     <span>TELEFONE (*)</span>
                     <input
                         type="tel"
@@ -79,7 +81,7 @@ const FormContato = () => {
                         onChange={handleChange}
                         value={formData.telefone}
                         maxlength="15"
-                        placeholder="(99) 99999-9999"
+                        placeholder="(__) _____-____"
                     />
                 </label>
                 <label>
@@ -89,6 +91,7 @@ const FormContato = () => {
                         name="assunto"
                         onChange={handleChange}
                         value={formData.assunto}
+                        placeholder='Digite aqui'
                     />
                 </label>
             </div>
@@ -98,6 +101,7 @@ const FormContato = () => {
                     <textarea
                         name="mensagem"
                         onChange={handleChange}
+                        placeholder='Escreva aqui a sua mensagem'
                     >
                         {formData.mensagem}
                     </textarea>

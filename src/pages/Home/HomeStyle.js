@@ -10,4 +10,5 @@ export const HomeStyle = styled.section`
     background-image: url(${background});
     background-repeat: no-repeat;
     background-size: cover;
+    
 `;

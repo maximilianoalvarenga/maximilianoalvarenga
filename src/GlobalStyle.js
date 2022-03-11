@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components"
 
 
 export const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
   * {
     margin: 0px;
     padding: 0px;

@@ -5,11 +5,11 @@ export const HeaderComponent = styled.header`
     height: 10%;
 
     background-color: #1D2B42;
-    color: #3A81F2;
+    color: #1E8FFF;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
+    font-family: 'Yatra One', cursive;
     img {
         height: 5.4rem;
     }

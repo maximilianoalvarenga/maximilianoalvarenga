@@ -12,15 +12,23 @@ export const Main = styled.main`
     border-top: 0.1rem solid black;
     display: flex;
     justify-content: center;
-    background-color: #1D2B42;
+    background-color: rgba(1, 31, 160, 0.89);
+    position: relative;
 `;
 
+export const Canvas = styled.canvas`
+    position: absolute;
+    width: 100%;
+    height: 100%;
+`
 export const ContainerPortfolio = styled.section`
+    position: absolute;
     width: 80%;
     height: 89.9%;
     margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
+    background-color: transparent;
 `;
 
 export const ContainerSearch = styled.div`
