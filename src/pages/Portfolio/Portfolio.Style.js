@@ -34,7 +34,7 @@ export const ContainerPortfolio = styled.section`
 export const ContainerSearch = styled.div`
     width: 100%;
     height: 8%;
-    color: #00A3FE;
+    color: #00A3FE; 
     display: flex;
     justify-content: space-evenly;
     height: 6%;
