@@ -1,7 +1,12 @@
+import { Container } from "./style";
+import Header from '../../components/Header/Header';
+
 const Sobre = () => {
-    return(
-        <h1>Olá Mundo!!!</h1>
-    )
+    return (
+        <Container>
+            <Header />
+        </Container>
+    );
 }
 
 export default Sobre;
