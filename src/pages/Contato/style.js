@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const Main = styled.main`
     height: 89.7%;
     // background-color: #1D2B42;
-    background-color: rgba(1, 31, 160, 0.89);
+    background-color: rgba(0, 0, 0, 0.96);
     display: flex;
     justify-content: center;
     align-items: center;
