@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/maximilianoalvarenga/static/js/main.5516ca0f.chunk.js",
-    "main.js.map": "/maximilianoalvarenga/static/js/main.5516ca0f.chunk.js.map",
+    "main.js": "/maximilianoalvarenga/static/js/main.a09ff021.chunk.js",
+    "main.js.map": "/maximilianoalvarenga/static/js/main.a09ff021.chunk.js.map",
     "runtime-main.js": "/maximilianoalvarenga/static/js/runtime-main.056c8cb5.js",
     "runtime-main.js.map": "/maximilianoalvarenga/static/js/runtime-main.056c8cb5.js.map",
-    "static/js/2.1516eca7.chunk.js": "/maximilianoalvarenga/static/js/2.1516eca7.chunk.js",
-    "static/js/2.1516eca7.chunk.js.map": "/maximilianoalvarenga/static/js/2.1516eca7.chunk.js.map",
+    "static/js/2.62a63f33.chunk.js": "/maximilianoalvarenga/static/js/2.62a63f33.chunk.js",
+    "static/js/2.62a63f33.chunk.js.map": "/maximilianoalvarenga/static/js/2.62a63f33.chunk.js.map",
     "index.html": "/maximilianoalvarenga/index.html",
-    "static/js/2.1516eca7.chunk.js.LICENSE.txt": "/maximilianoalvarenga/static/js/2.1516eca7.chunk.js.LICENSE.txt",
+    "static/js/2.62a63f33.chunk.js.LICENSE.txt": "/maximilianoalvarenga/static/js/2.62a63f33.chunk.js.LICENSE.txt",
     "static/media/Background.b7144830.jpg": "/maximilianoalvarenga/static/media/Background.b7144830.jpg",
     "static/media/discord.5e5b4cc2.png": "/maximilianoalvarenga/static/media/discord.5e5b4cc2.png",
     "static/media/email.612bbb1c.png": "/maximilianoalvarenga/static/media/email.612bbb1c.png",
@@ -16,7 +16,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.056c8cb5.js",
-    "static/js/2.1516eca7.chunk.js",
-    "static/js/main.5516ca0f.chunk.js"
+    "static/js/2.62a63f33.chunk.js",
+    "static/js/main.a09ff021.chunk.js"
   ]
 }
