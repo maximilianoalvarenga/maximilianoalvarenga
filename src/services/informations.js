@@ -55,5 +55,12 @@ export const projects = [
         urlRepo: '',
         tags: ['clone', 'html', 'css', 'javascript']
     },
+    {
+        name: 'Codigos Penais CDA',
+        repoName: 'codigos-penais-dpmcda',
+        urlProd: 'https://maximilianoalvarenga.github.io/codigos-penais-dpmcda/',
+        urlRepo: 'https://github.com/maximilianoalvarenga/codigos-penais-dpmcda',
+        tags: ['clone', 'html', 'css', 'javascript']
+    },
     
 ];
