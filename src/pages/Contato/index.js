@@ -1,3 +1,4 @@
+import Background from "../../components/Background";
 import Header from "../../components/Header/Header";
 import FormContato from "./FormContato";
 import { Container, Main } from "./style";
@@ -7,7 +8,10 @@ const Contato = () => {
         <Container>
             <Header />
             <Main>
-                <FormContato />
+                <Background />
+                <div className="principal">
+                    <FormContato />
+                </div>
             </Main>
         </Container>
     );

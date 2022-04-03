@@ -3,11 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.form`
     width: 60%;
     height: 90%;
-    background-color: rgba(58,129,242, 0.3);
+    background-color: rgba(29, 43, 66, 0.98);
+    box-shadow: 0px 0px 25px 1px #1E8FFF;
     color: #00A3FE;
     font-size: 1.8rem;
     font-weight: bold;
-    border-radius: 0.7rem;
+    border-radius: 3rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

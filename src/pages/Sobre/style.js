@@ -62,7 +62,7 @@ export const MainContent = styled.section`
     flex-direction: column;
     justify-content: space-between;
 
-    .informacoes { 
+    .informacoes {  
         width: 100%;
         background-color: rgba(29, 43, 66, 0.98);
         border-radius: 30px;
