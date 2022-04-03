@@ -15,12 +15,6 @@ export const Main = styled.main`
     background-color: rgba(1, 31, 160, 0.89);
     position: relative;
 `;
-
-export const Canvas = styled.canvas`
-    position: absolute;
-    width: 100%;
-    height: 100%;
-`
 export const ContainerPortfolio = styled.section`
     position: absolute;
     width: 80%;
