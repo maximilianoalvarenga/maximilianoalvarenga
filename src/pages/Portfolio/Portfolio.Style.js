@@ -55,7 +55,7 @@ export const ContainerSearch = styled.div`
         button {
             color: #00A3FE;
             font-size: 1.6rem;
-            font-weight: bold;
+            font-weight: bold; 
             height: 90%;
             width: 20%;
             border-bottom-right-radius: 1rem;
@@ -86,7 +86,7 @@ export const ContainerCardsPortfolio = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     .tags, .paginacao {
         text-align: center;

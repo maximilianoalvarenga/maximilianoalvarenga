@@ -7,9 +7,9 @@ export const CardProjectStyle = styled.div`
     transition: all .5s;
     height: 20rem;
     width: 25rem;
-    margin: 5px;
+    margin: 10px;
     color: #1D2B42;
-
+    font-family: 'Yatra One', cursive;
     
     #front, #back {
         border-radius: 2rem;
@@ -17,6 +17,7 @@ export const CardProjectStyle = styled.div`
         align-items: center;
         width: 100%;
         height: 100%;
+        box-shadow: 0px 0px 10px 1px #1E8FFF;
     }
 
     #front {
@@ -37,7 +38,8 @@ export const CardProjectStyle = styled.div`
 
     #back {
         cursor: pointer;
-        background-color: #21B1FF;
+        color: #1E8FFF;
+        background-color: #1D2B42;
         display: ${props => !props.flip ? 'flex' : 'none'};
     }
 `;
