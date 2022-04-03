@@ -3,7 +3,7 @@ const defaultUser = 'Maximiliano Alvarenga';
 export const setTitlePage = (path) => {
     switch (path) {
         case '/':
-            return `${defaultUser} | Home`;
+            return `${defaultUser}`;
         case '/sobre':
             return `${defaultUser} | Sobre`;
         case '/contato':
