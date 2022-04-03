@@ -2,6 +2,10 @@ import CardProject from './CardProject/CardProject';
 import Header from '../../components/Header/Header';
 import Background from '../../components/Background'
 import { projects } from '../../services/informations';
+import { useEffect } from "react";
+import * as util from '../../services/utils';
+import {  useLocation } from 'react-router-dom';
+
 import {
     ContainerCardsPortfolio,
     ContainerPortfolio,
@@ -12,6 +16,11 @@ import {
 
 
 const Portfolio = () => {
+    const location = useLocation();
+    useEffect(() => {
+        const title = util.setTitlePage(location.pathname);
+        document.title = title;
+    },[location.pathname]);
      /*const [tags, setTags] = useState([
         'React',
         'Java',

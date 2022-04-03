@@ -1,9 +1,18 @@
 import { useEffect, useRef } from 'react';
 import { Canvas, Container, Main, MainContent, Sidebar } from "./style";
 import Header from '../../components/Header/Header';
+import * as util from '../../services/utils';
+import {  useLocation } from 'react-router-dom';
 
 const Sobre = () => {
+    const location = useLocation();
     const canvas123 = useRef(null);
+
+    useEffect(() => {
+        const title = util.setTitlePage(location.pathname);
+        document.title = title;
+    },[location.pathname]);
+    
     useEffect(() => {
         /**
          * Código reutilizado do repositório https://github.com/AmurKhoyetsyan/Tutorial-HTML-CSS-JS-SASS/tree/master/JAVASCRIPT/How%20to%20create%20Matrix%20Effect%20using%20pure%20HTML%20CSS%20JAVASCRIPT
@@ -41,8 +50,11 @@ const Sobre = () => {
         }
         
         setInterval(draw, 30);
+
+        
     },[]);
 
+    
     return (
         <Container>
             <Header />
