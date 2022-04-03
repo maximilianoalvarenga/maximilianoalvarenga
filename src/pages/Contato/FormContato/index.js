@@ -24,13 +24,33 @@ const FormContato = () => {
         });
     }
 
-    const validaDados = () =>{
+    const validaDados = async() =>{
         const regexEmail = /(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+        const _data = { 
+            nome: formData.nome,
+            email: formData.email,
+            telefone: formData.telefone,
+            assunto: formData.assunto,
+            mensagem: formData.mensagem,
+        };
+        const requestOptions = {
+            method: 'POST',
+            headers: { "Content-type": "application/json; charset=UTF-8" },
+            body: JSON.stringify(_data)
+        };
 
         if(!regexEmail.test(formData.email)) {
             setFormData((old) => {
                 return {...old, email: ''}
             });
+        } else {
+            try {
+                const data = await fetch('https://maximiliano-backend.herokuapp.com/portfolio/contato', requestOptions);
+                const dataJSON = await data.json();
+                console.log(dataJSON);
+            } catch (error) {
+                console.log(error)
+            }
         }
     }
     
