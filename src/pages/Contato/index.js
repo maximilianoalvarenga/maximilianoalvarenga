@@ -6,7 +6,6 @@ const Contato = () => {
     return(
         <Container>
             <Header />
-            <hr />
             <Main>
                 <FormContato />
             </Main>

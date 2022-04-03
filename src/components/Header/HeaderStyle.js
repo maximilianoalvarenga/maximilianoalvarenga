@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderComponent = styled.header`
     width: 100%;
-    height: 10%;
+    height: 8%;
 
     background-color: #1D2B42;
     color: #1E8FFF;
@@ -10,13 +10,14 @@ export const HeaderComponent = styled.header`
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Yatra One', cursive;
+    
     img {
-        height: 5.4rem;
+        height: 4rem;
     }
 `;
 
 export const LinksPages = styled.div`
-    height: 5.4rem;
+    height: 4rem;
     display: flex;
     align-items: flex-end;
     width: 50%;
@@ -26,7 +27,7 @@ export const LinksPages = styled.div`
         display: flex;
         width: 100%;
         justify-content: flex-end;
-        height: 50%;
+        height: 80%;
 
         li {
             margin: 0% 5%;

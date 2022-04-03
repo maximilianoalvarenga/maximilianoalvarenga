@@ -8,7 +8,7 @@ export const PortfolioStyle = styled.div`
 
 export const Main = styled.main`
     width: 100%;
-    height: 89.9%;
+    height: 91.9%;
     border-top: 0.1rem solid black;
     display: flex;
     justify-content: center;
