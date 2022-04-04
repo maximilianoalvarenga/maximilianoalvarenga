@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/maximilianoalvarenga/static/js/main.477761b8.chunk.js",
-    "main.js.map": "/maximilianoalvarenga/static/js/main.477761b8.chunk.js.map",
+    "main.js": "/maximilianoalvarenga/static/js/main.d879ba2c.chunk.js",
+    "main.js.map": "/maximilianoalvarenga/static/js/main.d879ba2c.chunk.js.map",
     "runtime-main.js": "/maximilianoalvarenga/static/js/runtime-main.056c8cb5.js",
     "runtime-main.js.map": "/maximilianoalvarenga/static/js/runtime-main.056c8cb5.js.map",
     "static/css/2.66cbc4d4.chunk.css": "/maximilianoalvarenga/static/css/2.66cbc4d4.chunk.css",
-    "static/js/2.b03ed4b1.chunk.js": "/maximilianoalvarenga/static/js/2.b03ed4b1.chunk.js",
-    "static/js/2.b03ed4b1.chunk.js.map": "/maximilianoalvarenga/static/js/2.b03ed4b1.chunk.js.map",
+    "static/js/2.bd1a70ad.chunk.js": "/maximilianoalvarenga/static/js/2.bd1a70ad.chunk.js",
+    "static/js/2.bd1a70ad.chunk.js.map": "/maximilianoalvarenga/static/js/2.bd1a70ad.chunk.js.map",
     "index.html": "/maximilianoalvarenga/index.html",
     "static/css/2.66cbc4d4.chunk.css.map": "/maximilianoalvarenga/static/css/2.66cbc4d4.chunk.css.map",
-    "static/js/2.b03ed4b1.chunk.js.LICENSE.txt": "/maximilianoalvarenga/static/js/2.b03ed4b1.chunk.js.LICENSE.txt",
+    "static/js/2.bd1a70ad.chunk.js.LICENSE.txt": "/maximilianoalvarenga/static/js/2.bd1a70ad.chunk.js.LICENSE.txt",
     "static/media/Background.b7144830.jpg": "/maximilianoalvarenga/static/media/Background.b7144830.jpg",
     "static/media/discord.5e5b4cc2.png": "/maximilianoalvarenga/static/media/discord.5e5b4cc2.png",
     "static/media/email.612bbb1c.png": "/maximilianoalvarenga/static/media/email.612bbb1c.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.056c8cb5.js",
     "static/css/2.66cbc4d4.chunk.css",
-    "static/js/2.b03ed4b1.chunk.js",
-    "static/js/main.477761b8.chunk.js"
+    "static/js/2.bd1a70ad.chunk.js",
+    "static/js/main.d879ba2c.chunk.js"
   ]
 }
