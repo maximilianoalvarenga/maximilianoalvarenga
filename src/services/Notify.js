@@ -3,6 +3,12 @@ import 'react-toastify/dist/ReactToastify.css';
 
 toast.configure();
 
+export const InvalidEmail = () => {
+    toast.error('Insira um e-mail válido!', {
+      position: toast.POSITION.TOP_RIGHT,
+      theme: 'colored',
+    });
+}
 export const ContactError = () => {
   toast.error('Erro ao enviar mensagem, tente novamente!', {
     position: toast.POSITION.TOP_RIGHT,

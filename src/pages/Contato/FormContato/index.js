@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import { Button, Container } from "./style";
 import * as API_UTIL from  '../../../api/backendUtils';
 import { useNavigate } from 'react-router-dom';
-import { ContactError, ContactSucess } from "../../../services/Notify";
+import { ContactError, ContactSucess, InvalidEmail } from "../../../services/Notify";
 
 const FormContato = () => {
     const navigate = useNavigate();
@@ -43,6 +43,7 @@ const FormContato = () => {
         const regexEmail = /(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
 
         if(!regexEmail.test(formData.email)) {
+            InvalidEmail();
             setFormData((old) => {
                 return {...old, email: ''}
             });
