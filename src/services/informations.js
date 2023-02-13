@@ -5,7 +5,7 @@ import discord from '../assets/discord.png';
 import userPicture from '../assets/profile/userPicture.jpg';
 
 export const userInformations = {
-    name: 'MAXIMILIANO ALVARENGA',
+    name: 'Maximiliano Alvarenga',
     role: 'FullStack Developer',
     image: userPicture,
 };
@@ -37,8 +37,8 @@ export const projects = [
     {
         name: 'Riot Client',
         repoName:'login-league-of-legends',
-        urlProd: 'https://maximilianoalvarenga.github.io/login-league-of-legends/',
-        urlRepo: 'https://github.com/maximilianoalvarenga/login-league-of-legends',
+        urlProd: 'https://maximilianoalvarenga.github.io/login-riot-games/',
+        urlRepo: 'https://github.com/maximilianoalvarenga/login-riot-games/',
         tags: ['react', 'frontend', 'clone']
     },
     {
