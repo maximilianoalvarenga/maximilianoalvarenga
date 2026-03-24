@@ -1,8 +1,8 @@
 ### Olá 👋
 ## Sou Maximiliano Alvarenga (Max)
 - Moro em Coxim-Ms, mas aberto para conhecer o Brasil e o mundo  
-- Curso atualmente Sistemas de Informação pela Universidade Federal de Mato Grosso do Sul (UFMS) e  
-- Estou estudando JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git, entre outras linguagens e frameworks.  
+- Curso atualmente Tecnologia em Sistemas para Internet pelo Instituto Federal de Mato Grosso do Sul (IFMS) e  
+- Estou estudando JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git, entre outras linguagens e frameworks.
 ## Entre em contato comigo
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximiliano-alvarenga/)
